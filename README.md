@@ -19,3 +19,4 @@ Be careful with the MOLA 128pps layer as it is prone to accidentally losing your
 The purpose of 'modded' is to account for the fact that the 128 MOLA layer is not perfect and in some cases it could be useful to consider that the angle is not as bad as the data suggests. 
 
 ![lzimage](/images/LZ3route.png)
+Format: ![Alt Text](https://github.com/rscinto/TerrainAnalyzer/blob/master/images/LZ3route.PNG)
