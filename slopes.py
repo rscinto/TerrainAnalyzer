@@ -52,14 +52,14 @@ while index < (totalIndices - 1):
     eleDelta = abs(elevations[index + 1] - elevations[index])
     #priming read and reset
 
-    oneMeterAngle = math.degrees(math.atan(eleDelta/distDelta))
+    angleFound = math.degrees(math.atan(eleDelta/distDelta))
 
     #store values
-    angles.append(oneMeterAngle)
+    angles.append(angleFound)
 
-    if oneMeterAngle > 30:
-        oneMeterAngle = oneMeterAngle / 2
-        moddedAngle.append(oneMeterAngle)
+    if angleFound > 30:
+        angleFound = angleFound / 2
+        moddedAngle.append(angleFound)
         moddedDistance.append(distances[index])
 
     #resets
