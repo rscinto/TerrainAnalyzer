@@ -72,7 +72,6 @@ while index < (totalIndices - 1):
 badLines = []
 badAngles = []
 
-
 for x in range(len(angles)):
     if angles[x] > 30 or angles[x] < -30:
         print('Route out of tolerance at: ', x)

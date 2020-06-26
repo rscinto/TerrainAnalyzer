@@ -14,7 +14,7 @@ How to draw in the MOLA 128pps layer:
 * Once this is done, go to the dock, select chart and right click to export your CSV.
 * Place the exported file in the same directory as the python program.
 * Change **line 14** to your file name.
-* Run the **python slopes.py*
+* Run the **python slopes.py**
 * Check output for great success. 
 
 ## Notes
