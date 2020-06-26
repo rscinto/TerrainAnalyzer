@@ -1,5 +1,8 @@
 # TerrainAnalyzer
 
+**Using JMARS version 5.0.22**
+https://jmars.asu.edu/download
+
 ## Purpose
 This machine will accept CSV files from the JMARS "MOLA 128ppd Elevation" layer. It will then determine whether your route exceeds a slope angles of greater than 30 degrees. (Curiosity rover was able to reach 35 degrees then aborted the manuever) 
 
@@ -11,7 +14,9 @@ How to draw in the MOLA 128pps layer:
 * Select the cursor tool in the top right of JMARS.
 * Left click on the map slowly and keep adding points to the route.
 * When you're at the end of the route, double left click and the route  will turn from yellow to red. 
-* Once this is done, go to the dock, select chart and right click to export your CSV.
+* Once this is done, go to the dock, select chart 
+* change the Chart PPD to the highest number possible
+* right click the chart to export your CSV.
 * Place the exported file in the same directory as the python program.
 * Change **line 14** to your file name.
 * Run the **python slopes.py**
