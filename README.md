@@ -6,8 +6,8 @@ This machine will accept CSV files from the JMARS "MOLA 128ppd Elevation" layer.
 ## Directions
 Draw your route with that layer active. Then go to the chart tab on the dock. Right click on the chart and save the file as a "yourmission.csv". Place the saved file in the same folder as the python program and run.
 
-## Steps
-* How to draw in the MOLA 128pps layer:
+## Verbose Steps
+How to draw in the MOLA 128pps layer:
 * Select the cursor tool in the top right of JMARS.
 * Left click on the map slowly and keep adding points to the route.
 * When you're at the end of the route, double left click and the route  will turn from yellow to red. 
