@@ -10,7 +10,8 @@ distances = []
 elevations = []
 
 #File processing
-with open('lz1.csv') as csvfile:
+#change the sample.csv to your file as needed
+with open('sample.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter= ',')
     
     #skips over header
@@ -91,6 +92,9 @@ for x in range(len(moddedAngle)):
 
 
 #print yield
+
+print()
+print('OUTPUT:')
 if failure:
     print('operational limits exceeded')
     print('Num Failures: ', len(badAngles))
